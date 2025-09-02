@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>موقعي الشخصي - محمود الخولاني</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Tahoma', sans-serif;
+      direction: rtl;
+      background-color: #1a1a1a; /* خلفية داكنة خفيفة */
+      color: #f1f1f1; /* النصوص أوضح */
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #003366, #004080); 
+      padding: 40px 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid #ddd;
+      margin-bottom: 15px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.2);
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 26px;
+    }
+
+    nav {
+      background-color: #222;
+      text-align: center;
+      padding: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    }
+
+    nav a {
+      color: #00c6ff;
+      text-decoration: none;
+      margin: 12px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #66e0ff;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #262626; /* داكن خفيف */
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background-color: #2e2e2e;
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+    }
+
+    .project img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project h3 {
+      margin: 10px 0;
+      color: #00c6ff;
+    }
+
+    .project p {
+      font-size: 15px;
+      padding: 0 10px 15px;
+      color: #ddd;
+    }
+
+    .project a {
+      display: inline-block;
+      margin: 10px;
+      padding: 8px 15px;
+      background: linear-gradient(135deg, #004080, #0066cc);
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .project a:hover {
+      background: linear-gradient(135deg, #0066cc, #0080ff);
+    }
+
+    .social-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-buttons a {
+      text-decoration: none;
+      margin: 10px;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+      transition: opacity 0.3s;
+    }
+
+    .social-buttons a:hover {
+      opacity: 0.85;
+    }
+
+    .whatsapp { background-color: #25D366; }
+    .instagram { background-color: #E1306C; }
+    .facebook { background-color: #1877F2; }
+
+    footer {
+      background-color: #003366;
+      text-align: center;
+      padding: 15px;
+      color: #f1f1f1;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.ibb.co/JgsCqTN/image.jpg">
+    <h1>محمود الخولاني</h1>
+    <p>مطور ويب | خبرة في تصميم الواجهات والتفاعل</p>
+  </header>
+
+  <nav>
+    <a href="#about">عنّي</a>
+    <a href="#skills">المهارات</a>
+    <a href="#experience">الخبرات</a>
+    <a href="#portfolio">الأعمال</a>
+    <a href="#contact">تواصل</a>
+  </nav>
+
+  <section id="about">
+    <div class="card">
+      <h2>عنّي</h2>
+      <p>.أنا مطور واجهات أمامية بخبرة في تطوير وتصميم مواقع الويب العصرية. أستخدم HTML وCSS</p>
+      <p>لاعب كرة قدم في خط الهجوم ولعبت لي نادي شعب اب لمدة ٨ سنوات </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="card">
+      <h2>المهارات</h2>
+      <ul>
+        <li>تحليل ونصميم الانظمة بطريقة عطرية حديثة</li>
+        <li>تصميم وتطوير مواقع الويب في واجهلت المستخدم </li>
+        <li>هندسة شبكات حاسوب</li>
+        <li>اطبطب كروة كثيييير </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="card">
+      <h2>الخبرات</h2>
+      <ul>
+        <li><strong>شركة يمن سوفت </strong> - مطور واجهات (2022)</li>
+        <li><strong>ابداع سوفت </strong> - مبرمج انظمة  (2020 - 2022)</li>
+        <li><strong>شركة Mate</strong> - حماية الشركة من الهجمات السيبرانيه</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="card">
+      <h2>أعمالي</h2>
+      <div class="projects-grid">
+
+        <div class="project">
+          <img src="https://i.ibb.co/WpMYKb44/3870-jpg-wh860-1.jpg">
+          <h3>افكاري</h3>
+          <p>موقع يسمح للمستخدم رفع مشروع اوبحث او اخذ فكرة مشروع او بحث .</p>
+          <a href="#">مشاهدة</a>
+        </div>
+
+        <div class="project">
+          <img src="https://i.ibb.co/TxcDG7PL/Screenshot-Google.jpg">
+          <h3>تساهيل </h3>
+          <p> تطبيق موبايل يعمل على توصيل طلبات العملاء .</p>
+          <a href="#">مشاهدة</a>
+        </div>
+
+        <div class="project">
+          <img src="https://i.ibb.co/qMWmLgfz/74da06809b829400.jpg" >
+          <h3>الطبيب المفضل </h3>
+          <p>موقع ويب يعرض تقيماات الاطباء وذلك يسهل البحث عن الطبيب الافضل لك </p>
+          <a href="#">مشاهدة</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>تواصل معي</h2>
+      <p>البريد الإلكتروني: mahomud7814@gmail.com</p>
+      <p>الهاتف: +967781431576</p>
+      <div class="social-buttons">
+        <a href="https://wa.me/+967712354085" class="whatsapp" target="_blank">واتساب</a>
+        <a href="https://instagram.com/m____mn8" class="instagram" target="_blank">إنستغرام</a>
+        <a href="https://facebook.com/username" class="facebook" target="_blank">فيسبوك</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 محمود الخولاني - جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
